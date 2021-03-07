@@ -1,0 +1,168 @@
+[package]
+name = "example"
+version = "0.1.0"
+authors = ["Mingrui Huang <mingrui.huang@setl.io>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num = "0.4.0"
+regex = "1"
+clap = "2"
+
+[[bin]]
+name = "1_process_csv"
+path = "src/bin/1_process_csv.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "1_6_dangling_pointer"
+path = "src/bin/1_6_dangling_pointer.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "1_7_data_race"
+path = "src/bin/1_7_data_race.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "1_8_buffer_overflow"
+path = "src/bin/1_8_buffer_overflow.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "1_9_borrow_after_move"
+path = "src/bin/1_9_borrow_after_move.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "1_10_store_data"
+path = "src/bin/1_10_store_data.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_1_number"
+path = "src/bin/2_1_number.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_2_float_number"
+path = "src/bin/2_2_float_number.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_3_float_number_tolerance"
+path = "src/bin/2_3_float_number_tolerance.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_4_float_number_nan"
+path = "src/bin/2_4_float_number_nan.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_5_num_crate"
+path = "src/bin/2_5_num_crate.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_10_loop_through_aray"
+path = "src/bin/2_10_loop_through_aray.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_11_loop_iterator"
+path = "src/bin/2_11_loop_iterator.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_12_loop_iterator_own"
+path = "src/bin/2_12_loop_iterator_own.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_13_break_inner_loop"
+path = "src/bin/2_13_break_inner_loop.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_14_match"
+path = "src/bin/2_14_match.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_19_lifetime"
+path = "src/bin/2_19_lifetime.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_23_generic"
+path = "src/bin/2_23_generic.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_26_search_string"
+path = "src/bin/2_26_search_string.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_27_array"
+path = "src/bin/2_27_array.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_28_vec"
+path = "src/bin/2_28_vec.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_32_regex"
+path = "src/bin/2_32_regex.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_36_commandline_arg"
+path = "src/bin/2_36_commandline_arg.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_37_read_file"
+path = "src/bin/2_37_read_file.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_38_read_file"
+path = "src/bin/2_38_read_file.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_39_seach_file"
+path = "src/bin/2_39_search_file.rs"
+test = false
+bench = false
