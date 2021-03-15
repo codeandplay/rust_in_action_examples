@@ -10,6 +10,7 @@ edition = "2018"
 num = "0.4.0"
 regex = "1"
 clap = "2"
+rand= "0.7"
 
 [[bin]]
 name = "1_process_csv"
@@ -164,5 +165,83 @@ bench = false
 [[bin]]
 name = "2_39_seach_file"
 path = "src/bin/2_39_search_file.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "2_40_seach_file_and_stdin"
+path = "src/bin/2_40_seach_file_and_stdin.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "3_9_not_quite_file"
+path = "src/bin/3_9_not_quite_file.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "3_10_defining_files_new_fn"
+path = "src/bin/3_10_defining_files_new_fn.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "3_11_defining_files_define_method"
+path = "src/bin/3_11_defining_files_define_method.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "3_12_error_handle_with_global_var"
+path = "src/bin/3_12_error_handle_with_global_var.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "3_14_error_handle_with_result"
+path = "src/bin/3_14_error_handle_with_result.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "3_16_parse_event_log"
+path = "src/bin/3_16_parse_event_log.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "3_19_read_trait"
+path = "src/bin/3_19_read_trait.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "3_22_implementing_display"
+path = "src/bin/3_22_implementing_display.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "4_4_ownership_moved"
+path = "src/bin/4_4_ownership_moved.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "4_9_return_ownership"
+path = "src/bin/4_9_return_ownership.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "4_16_avoid_ownership_issue_with_reference"
+path = "src/bin/4_16_avoid_ownership_issue_with_reference.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "4_17_avoid_ownership_issue_with_shortlived_variable"
+path = "src/bin/4_17_avoid_ownership_issue_with_shortlived_variable.rs"
 test = false
 bench = false
