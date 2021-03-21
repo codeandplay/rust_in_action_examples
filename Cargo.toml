@@ -245,3 +245,93 @@ name = "4_17_avoid_ownership_issue_with_shortlived_variable"
 path = "src/bin/4_17_avoid_ownership_issue_with_shortlived_variable.rs"
 test = false
 bench = false
+
+[[bin]]
+name = "4_20_derive_copy_for_type"
+path = "src/bin/4_20_derive_copy_for_type.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "4_21_implement_copy_for_type"
+path = "src/bin/4_21_implement_copy_for_type.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "4_23_wrap_type_with_rc"
+path = "src/bin/4_23_wrap_type_with_rc.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "4_24_wrap_type_with_rc_refcell"
+path = "src/bin/4_24_wrap_type_with_rc_refcell.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "5_2_same_bits_for_different_things"
+path = "src/bin/5_2_same_bits_for_different_things.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "5_3_inpect_float_bits_by_interpreting_as_integer"
+path = "src/bin/5_3_inpect_float_bits_by_interpreting_as_integer.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "5_4_incrementing_an_integer_past_its_range"
+path = "src/bin/5_4_incrementing_an_integer_past_its_range.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "5_6_impossible_addition"
+path = "src/bin/5_6_impossible_addition.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "5_7_endianness"
+path = "src/bin/5_7_endianness.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "5_8_deconstruct_float_num"
+path = "src/bin/5_8_deconstruct_float_num.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "5_17_implement_q7_format"
+path = "src/bin/5_17_implement_q7_format.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "5_20_float_from_byte"
+path = "src/bin/5_20_float_from_byte.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "5_26_cpu_adder"
+path = "src/bin/5_26_cpu_adder.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "5_27_multiple_instructions"
+path = "src/bin/5_27_multiple_instructions.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "5_36_cpu_calling_function"
+path = "src/bin/5_36_cpu_calling_function.rs"
+test = false
+bench = false

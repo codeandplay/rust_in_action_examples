@@ -70,4 +70,14 @@ fn main() {
         };
         base.send(&mut mail, msg);
     }
+
+    let sat_ids = fetch_sat_ids();
+
+    for sat_id in sat_ids {
+        let sat = base.connect(sat_id);
+
+        let msg = sat.recv(&mut mail);
+
+        println!("{:?}: {:?}", sat, msg);
+    }
 }
